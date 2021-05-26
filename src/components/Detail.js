@@ -51,7 +51,7 @@ const Background = styled.div`
      bottom: 0;
      right: 0;
      z-index: -1;
-     opacity: 0.8;
+     /* opacity: 0.8; */
 
      img {
          width:100%;
@@ -65,6 +65,7 @@ const ImageTitle = styled.div`
     min-height: 170px;
     width:35vw;
     min-width: 200px;
+    margin-top:60px;
 
     img {
         height: 100%;
@@ -134,4 +135,5 @@ const Description = styled.div`
     font-size:20px;
     margin-top: 16px;
     color:rgb(249, 249, 249);
+    max-width:760px;
 `;
