@@ -53,7 +53,7 @@ const Background = styled.div`
      z-index: -1;
      /* opacity: 0.8; */
 
-     img {
+     img { 
          width:100%;
          height: 100%;
          object-fit: cover;
