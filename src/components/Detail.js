@@ -88,6 +88,9 @@ const Background = styled.div`
          width:100%;
          height: 100%;
          object-fit: cover;
+        @media (max-width: 768px) {
+            width: initial;
+    }
      }
 `;
 
@@ -123,10 +126,24 @@ const PlayButton = styled.button`
     letter-spacing: 1.8px;
     cursor: pointer;
 
+    img {
+    width: 32px;
+  }
+
 
     &:hover {
         background: rgb(198, 198, 198);
     }
+
+     @media (max-width: 768px) {
+    height: 45px;
+    padding: 0px 12px;
+    font-size: 12px;
+    margin: 0px 10px 0px 0px;
+    img {
+      width: 25px;
+    }
+  }
 `;
 const TrailerButton = styled(PlayButton)`
     background: rgba( 0, 0, 0,0.3);
@@ -160,6 +177,10 @@ const SubTitle = styled.div`
    font-size:15px;
    min-height:20px;
    margin-top:26px;
+
+    @media (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 const Description = styled.div`
     line-height:1.4;
@@ -167,4 +188,8 @@ const Description = styled.div`
     margin-top: 16px;
     color:rgb(249, 249, 249);
     max-width:760px;
+
+    @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
