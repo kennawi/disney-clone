@@ -175,6 +175,7 @@ const Login =  styled.div`
     border-radius : 4px;
     letter-spacing : 1.5px;
     text-transform : uppercase;
+    cursor: pointer;
     background-color : rgba(0,0,0,0.6);
 
     &:hover{
